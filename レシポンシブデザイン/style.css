@@ -1,0 +1,30 @@
+.box{
+    width: 600px;
+    height: 240px;
+    background-color: darkorchid;
+}
+.item{
+    width: 290px;
+    height: 100px;
+    margin: 5px;
+    background-color: darkturquoise;
+}
+.container{
+    width: 600px;
+    display: flex;
+}
+@media screen and (max-width: 600px){
+    .box{
+        width: 100%;
+        background-color: green;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+        background-color: red;
+    }
+}
+

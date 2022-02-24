@@ -1,0 +1,21 @@
+a:active{
+    color: red;
+    font-weight: bold;
+}
+.btn{
+    width: 180px;
+    height: 60px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 0px 8px 0px 2px rgb(129,1,1);
+    user-select: none;
+}
+.btn:active,.a:active{
+    margin-top: 4px;
+    box-shadow: 0px 4px 0px 2px rgb(129,1,1);
+}
+a{
+    text-decoration: none;
+}

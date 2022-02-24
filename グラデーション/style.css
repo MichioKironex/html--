@@ -1,0 +1,30 @@
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    background: linear-gradient(1450deg, red 50%,orange,blue);
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    background: radial-gradient(red 20%,orange,black );
+
+}
+.box3{
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    background: mediumaquamarine;
+    position: relative;
+    /*background: radial-gradient(red 20%,orange,black );*/
+}
+.box3::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 255,0.5),rgba(255, 0, 0,0.5));
+}

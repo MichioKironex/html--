@@ -1,0 +1,59 @@
+.container{
+    width: 800px;
+    margin: 20px auto;
+    background-color: cadetblue;
+}
+td{
+    width: 380px;
+}
+.flex-container{
+    display: flex;
+}
+.item1{
+    width: 380px;
+    height: 280px;
+    background-color: coral;
+    margin: 5px;
+}
+.item2{
+    width: 380px;
+    height: 280px;
+    background-color: pink;
+    margin: 5px;
+}
+.left{
+    width: 380px;
+    height: 280px;
+    background-color: green;
+    margin: 5px;
+    float: left;
+}
+.right{
+    width: 380px;
+    height: 280px;
+    background-color: blue;
+    margin: 5px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 90%;
+    }
+    td{
+        width: 100%;
+        display: block;
+    }
+    .flex-container{
+        flex-direction:column;
+    }
+    .item1,.item2{
+        width: 90%;
+    }
+    .left,.right{
+        float: none;
+        width: 90%;
+    }
+}
